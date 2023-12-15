@@ -1,0 +1,24 @@
+#game-board {
+    display: grid;
+    grid-template-columns: repeat(10, 100px);
+    grid-gap: 5px;
+    background-color: #f2f2f2;
+}
+
+.square {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.ladder {
+    background-color: blue;
+}
+
+.snake {
+    background-color: green;
+}
+
+.snake-head {
+    background-color: red;
+}
